@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title2" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:tag="原密码  新密码  确认密码" >
+
+                <LinearLayout
+                    android:id="@+id/oldPwdLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:tag="原密码" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="@string/old_pwd"
+                        android:textColor="@color/gray_444"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/oldPwd"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/hint_pwd_old"
+                        android:inputType="textPassword"
+                        android:maxLength="12"
+                        android:padding="5dp"
+                        android:textColor="@color/gray_444"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/newPwdLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:tag="新密码" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="@string/new_pwd"
+                        android:textColor="@color/gray_444"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/newPwd"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/hint_pwd_new"
+                        android:inputType="textPassword"
+                        android:maxLength="12"
+                        android:padding="5dp"
+                        android:textColor="@color/gray_444"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/surePwdLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:tag="确认密码" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="@string/sure_pwd"
+                        android:textColor="@color/gray_444"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/surePwd"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/hint_pwd_sure"
+                        android:inputType="textPassword"
+                        android:maxLength="12"
+                        android:padding="5dp"
+                        android:textColor="@color/gray_444"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sureBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/round_blue_transparent"
+                android:padding="8dp"
+                android:text="@string/sure"
+                android:textColor="@color/title_blue"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hintFalse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/x"
+                android:drawablePadding="2dp"
+                android:textColor="@color/red"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

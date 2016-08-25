@@ -1,0 +1,13 @@
+查询用药信息（用药遗嘱）：
+
+	http://192.168.10.179:8080/treat/app/treat.html?mark=getCareInfoByCodeTime&doctorCode=1000000123&patientCode=0077611&from=2016-06-30&to=2016-08-31
+
+
+查询检验信息：
+
+	http://192.168.10.179:8080/treat/app/treat.html?mark=getCheckInfoByCodeTime&patientCode=0077611&patientCode=0077611&from=2016-06-30&to=2016-08-31
+	
+	
+	
+	
+	

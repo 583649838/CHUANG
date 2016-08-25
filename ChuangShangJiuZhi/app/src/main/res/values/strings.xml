@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">创伤救治</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="cancel">取消</string>
+
+    <string name="welcome_text">创伤救治&#160;·&#160;全心全意</string>
+
+    <!-- 引导页文字 -->
+    <string name="guide1_title">您的专属私人医生</string>
+    <string name="guide1_content">了解您，关爱您\n全心全意为您和您的家人保驾护航</string>
+    <string name="guide2_title">个性化医疗或保健方案</string>
+    <string name="guide2_content">根据您的身体状况，为您\n量身定制符合您的健康方案</string>
+    <string name="guide3_title">精准&#160;&#160;科学&#160;&#160;权威&#160;&#160;优质</string>
+    
+    <!-- TitleView -->
+    <string name="main">创伤救治</string>
+    <string name="main_jibenxinxi">基本信息</string>
+    <string name="main_huanzhezhuisu">患者追溯</string>
+    <string name="main_huanzhexinxi">患者信息</string>
+    <string name="main_jiguotixiang">结果提醒</string>
+    <string name="main_xinxiluru">信息录入</string>
+    <string name="main_title_shouhuan">手环</string>
+    <string name="main_title_yonghu">医生</string>
+    
+    <string name="activity_title_bangdingshouhuan">绑定手环</string>
+    <string name="activity_searchviewhint">请输入就诊号</string>
+
+    <string name="activity_jianchajiegoudetail">详细检查结果</string>
+
+    <string name="scan">扫&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;描</string>
+    
+    <string name="bingren_name">病人姓名：</string>
+    <string name="bingren_id">病&#160;&#160;历&#160;&#160;号：</string>
+    <string name="sex">性&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;别：</string>
+    <string name="age">年&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;龄：</string>
+    <string name="bingqu">病&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;区：</string>
+    <string name="shoushushi">手&#160;&#160;术&#160;&#160;室：</string>
+    <string name="shoushu_time">手术时间：</string>
+    <string name="zhuzhi_yisheng">主治医生：</string>
+    <string name="shoushu_yisheng">手术医生：</string>
+    <string name="shoushu_name">手&#160;&#160;术&#160;&#160;名：</string>
+
+    <string name="name">名称</string>
+    <string name="guige">规格</string>
+    <string name="type">型号</string>
+    <string name="number">数量</string>
+    <string name="code">条码</string>
+    <string name="gongyingshang">供应商</string>
+    <string name="riqi">日期</string>
+    <string name="shenqingren">申请人</string>
+    <string name="zuoyong_bingren">作用病人</string>
+    <string name="chukuren">出库人</string>
+    <string name="lingyongren">领用人</string>
+    <string name="shiyongren">使用人</string>
+    
+    <string name="goods_name">物品名称：</string>
+    <string name="goods_code">物品条码：</string>
+    <string name="goods_guige">规&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;格：</string>
+    <string name="goods_type">型&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;号：</string>
+    <string name="goods_youxiaoqi">&#160;&#160;&#160;&#160;有效期：</string>
+    <string name="goods_gongyingshang">&#160;&#160;&#160;&#160;供应商：</string>
+    
+    <string name="sure_out">确认出库</string>
+    <string name="sure_in">确认入库</string>
+    <string name="date">日期：</string>
+    <string name="to">至</string>
+    <string name="search">查询</string>
+    
+    <string name="time">时间</string>
+    <string name="status">状态</string>
+    <string name="caozuoren">操作人</string>
+    
+    <!-- 登陆 -->
+    <string name="hint_account">输入用户名</string>
+    <string name="hint_pwd">输入密码</string>
+    <string name="hint_name">请输入您的真实姓名</string>
+    <string name="hint_phone">请输入您的电话号码</string>
+    <string name="guangyiguang">逛一逛》</string>
+
+    <string name="wangji_mima">忘记密码？</string>
+    <string name="forget_pwd">修改密码</string>
+    <string name="login">登&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;陆</string>    
+    <string name="hint">提示</string>
+    <string name="confirm_label">确定</string>
+    <string name="cancel_chuku_label">取消出库</string>
+    <string name="loading_login">正在登录&#8230;</string>
+    <string name="name_err">用户名不能为空！</string>
+    <string name="pwd_err">请输入密码！</string>
+    <!-- 修改密码 -->
+    <string name="old_pwd">原&#160;&#160;密&#160;&#160;码</string>
+    <string name="new_pwd">新&#160;&#160;密&#160;&#160;码</string>
+    <string name="sure_pwd">确认密码</string>
+    <string name="modify_pwd">密码修改</string>
+    <string name="hint_pwd_old">在此输入您的原密码</string>
+    <string name="hint_pwd_new">在此输入您的新密码</string>
+    <string name="hint_pwd_false">原密码错误，请重新输入</string>
+    <string name="hint_pwd_null">原密码不能为空，请重新输入</string>
+    <string name="hint_oldpwd_false">原密码错误，请重新输入</string>
+    <string name="hint_newpwd_null">新密码不能为空，请重新输入</string>
+    <string name="hint_newpwd_num">请输入6-12位密码</string>
+    <string name="hint_surepwd_false">密码与第一遍输入不符，请重新输入</string>
+    <string name="hint_pwd_safe">为了提升您的密码安全性,建议使用英文加数字或字符的混合密码</string>
+    <string name="hint_pwd_sure">请再次输入您的密码</string>
+    <string name="sure">确&#160;&#160;&#160;&#160;&#160;&#160;定</string>
+    <string name="submit">提交</string>
+    <string name="loading_data">正在加载&#8230;</string>
+    
+    <!-- 出库 -->
+    <string name="keshi">科室:</string>
+  	<string name="chuanghao">床号:</string>
+  	<string name="chukuname">姓名:</string>
+  	<string name="binglinumber">病历号:</string>
+  	<string name="bingli_err">请输入病历号！</string>
+  	<string name="checkgoods_err">请选中要出库的物品！</string>
+  	<!-- 扫描核对 -->
+    <string name="heduikeshi">科&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;室：</string>
+     <string name="heduichuanghao">床&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;号：</string>
+     <string name="star">*</string>
+     <string name="check_result">结果</string>
+     <string name="zhengque">✔</string>
+     <string name="cuowu">✘</string>
+     <!-- 切换ip -->
+     <string name="ip">ServerIP:</string>
+     <string name="ip_err">ip不能为空！</string>
+</resources>

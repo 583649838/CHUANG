@@ -1,0 +1,42 @@
+TASK com.bestplus.chuangshangjiuzhi id=70
+  ACTIVITY com.bestplus.chuangshangjiuzhi/.LoginActivity 415307c0 pid=16895
+    Local Activity 41195460 State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 ?mcc?mnc zh_CN ldltr sw480dp w480dp h780dp 240dpi lrg long port finger -keyb/v/h -nav/h s.6}
+    FragmentManager misc state:
+      mActivity=com.bestplus.chuangshangjiuzhi.LoginActivity@41195460
+      mContainer=android.app.Activity$1@411ae1b8
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{41199d60 V.E..... R....... 0,0-720,1208}
+        android.widget.LinearLayout{411ce150 V.E..... ........ 0,0-720,1208}
+          android.view.ViewStub{411c9960 G.E..... ......I. 0,0-0,0 #1020356}
+          android.widget.FrameLayout{411ce4a0 V.E..... ........ 0,38-720,1208 #1020002 android:id/content}
+            android.widget.LinearLayout{411a17a8 V.E..... ........ 0,0-720,1170}
+              android.widget.LinearLayout{411a2968 V.E..... ........ 0,0-720,585}
+                android.widget.ImageView{411a2cc8 V.ED.... ........ 231,98-488,381}
+                android.widget.TextView{411d39b8 V.ED...L ........ 270,426-450,487 #7f0b0099 app:id/app_name}
+                android.widget.LinearLayout{411a33a0 G.E..... ......I. 0,0-0,0 #7f0b009a app:id/lay_ip}
+                  android.widget.TextView{411a3608 V.ED.... ......I. 0,0-0,0}
+                  android.widget.EditText{411a3bf0 VFED..CL ......I. 0,0-0,0 #7f0b009b app:id/ip}
+                  android.widget.Button{41197cd8 VFED..C. ......I. 0,0-0,0 #7f0b009c app:id/ipButton}
+              android.widget.LinearLayout{41198150 V.E..... ........ 0,585-720,1170}
+                android.widget.LinearLayout{41198478 V.E..... ........ 30,30-690,413}
+                  android.view.View{411c84e0 V.ED.... ........ 0,0-660,1}
+                  android.widget.LinearLayout{411c8798 V.E..... ........ 0,1-660,85}
+                    android.widget.ImageView{411c8ac0 V.ED.... ........ 0,0-82,84}
+                    android.widget.EditText{411b98d8 VFED..CL .F...... 82,0-660,84 #7f0b009d app:id/loginUser}
+                  android.view.View{411ba8d0 V.ED.... ........ 0,85-660,86}
+                  android.widget.LinearLayout{411bab68 V.E..... ........ 0,86-660,168}
+                    android.widget.ImageView{411aa460 V.ED.... ........ 0,0-78,82}
+                    android.widget.EditText{411aa8e0 VFED..CL ........ 78,0-660,82 #7f0b009e app:id/loginPwd}
+                  android.view.View{411b58a8 V.ED.... ........ 0,168-660,169}
+                  android.widget.LinearLayout{411b5b28 V.E..... ........ 0,169-660,241}
+                    android.widget.LinearLayout{411b2668 V.E...C. ........ 0,0-153,72 #7f0b009f app:id/rememberPwdLayout}
+                      android.widget.CheckBox{411a66e0 VFED..C. ........ 0,0-57,72 #7f0b00a0 app:id/rememberPwd}
+                      android.widget.TextView{411a5ca0 V.ED.... ........ 57,19-153,52}
+                    android.view.View{411934a8 V.ED.... ........ 153,35-576,37}
+                    android.widget.Button{411a6390 VFED..C. ........ 576,13-660,58 #7f0b00a1 app:id/forgetPwdButton}
+                  android.widget.Button{411a6e18 VFED..C. ........ 0,316-660,383 #7f0b00a2 app:id/loginButton}

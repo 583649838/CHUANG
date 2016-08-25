@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <!-- 全透明 -->
+    <color name="transparent_half">#a0000000</color>
+    <!-- 半透明 -->
+    <color name="transparent_3f">#3f000000</color>
+    <color name="default_bg">#F3F3F3</color>
+    <!-- 透明白色 -->
+    <color name="round_halfwhite">#5fffffff</color>
+    <!-- 主题字体 -->
+    <color name="default_color">#93070A</color>
+    <color name="blue_title">#1b89d6</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="green">#00ff00</color>
+    <color name="dialog_blue">#35B5E5</color>
+    <color name="guanzhu">#3be4cb</color>
+    <color name="zhenjin">#ff5050</color>
+    <color name="little_gray">#d3d3d3</color>
+    <color name="gray_444">#444</color>
+    <color name="gray_666">#666</color>
+    <color name="gray_bbb">#bbbbbb</color>
+    <color name="gray_ccc">#ccc</color>
+    <color name="gray_ddd">#ddd</color>
+    <color name="gray_f8f8f8">#F8F8F8</color>
+    <color name="gray_808080">#808080</color>
+    <color name="gray_333">#333333</color>
+    <color name="gray_7e">#7e7e7e</color>
+    <!-- 表格外线 -->
+    <color name="gray_e9">#e9e9e9</color>
+    <!-- 表格背景 -->
+    <color name="gray_74">#747474</color>
+    <!-- 表格字体色 -->
+    <color name="gray_yellow">#ddb13c</color>
+    <color name="gray_ec">#ececec</color>
+    <color name="line_color">#dedfe0</color>
+    <color name="line_dashes">#3f000000</color>
+    <color name="line_blue">#a2dadb</color>
+    <!-- 浅灰 -->
+    <color name="gray_slow">#EDECEC</color>
+
+    <!-- 重新加载按钮 -->
+    <color name="yellow_ff9900">#ff9900</color>
+    <color name="yellow_press">#CC8038</color>
+    <color name="yellow_low_bg">#FFA046</color>
+
+    <!-- 通用按钮样式 -->
+    <color name="yellow_btn_press">#CD7054</color>
+    <!-- 通用按钮 按下样式 -->
+
+    <color name="purple">#9E419E</color>
+    <color name="txt_dark">#333333</color>
+
+    <!-- 底部选项卡 -->
+    <color name="main_textview_normal">#bcbcbc</color>
+    <color name="main_textview_checked">#53b3e6</color>
+
+    <!-- dialog 顶部颜色 -->
+    <color name="dialog_blue_bg">#57c4bf</color>
+    <color name="ctpic_left_view">#fa8905</color>
+    <color name="province_line_border">#fc8b07</color>
+    <color name="point_blue">#41aee9</color>
+    <color name="point_green">#2abbb4</color>
+    <color name="point_purple">#b37cda</color>
+    <!-- 选择图片的选中后背景色 -->
+    <color name="image_checked_bg">#66000000</color>
+    <color name="bg_yiyuan">#66ffffff</color>
+
+    <!-- 首页顶部颜色 -->
+    <color name="title_blue">#46A1F0</color>
+
+    <!-- 圆角颜色图案 -->
+    <color name="round_blue">#67b3ef</color>
+    <color name="round_green">#88c5be</color>
+    <color name="round_grayblue">#68ba92</color>
+    <color name="round_blue2">#57aaf1</color>
+
+    <!-- 健康评估 -->
+    <color name="pinggu_01">#ff0603</color>
+    <color name="pinggu_02">#ffd568</color>
+    <color name="pinggu_03">#9cff22</color>
+    <color name="pinggu_04">#7ae902</color>
+    <color name="pinggu_red">#FF4326</color>
+    <color name="pinggu_orange">#FFD855</color>
+    <color name="pinggu_green">#68BA8A</color>
+    <color name="round_yellow">#fed955</color>
+    <!-- 按钮颜色 -->
+    <color name="button_orange_normal">#fc8b07</color>
+    <color name="button_orange_onclick">#b96808</color>
+    <!-- 未登录首页viewpager文字背景 -->
+    <color name="text_blue_bg">#87b2d4</color>
+    <color name="view_bg_orange">#f5a812</color>
+    <color name="edit_false_hint">#f4c7c4</color>
+    <!-- 星星颜色 -->
+    <color name="star_yellow">#fff100</color>
+    <color name="welcome_bg">#64b1f4</color>
+
+    <!-- 问卷颜色 -->
+    <color name="wenjuan_personal_history_grid_item_bg">#cccccc</color>
+    <color name="wenjuan_personal_history_grid_item_select">#fe7b81</color>
+    <color name="riben_tijian_bg">#bdd7e4</color>
+    
+    <!-- 腾讯云通讯IM -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+
+
+    <color name="background">#F9F7F8</color>
+    <color name="background_gray1">#EBEBEB</color>
+    <color name="background_gray2">#E6E6E6</color>
+    <color name="background_gray3">#D4D4D4</color>
+    <color name="background_gray4">#efeff4</color>
+    <color name="line">#DDDDDD</color>
+    <color name="line_btn">#BBBBBB</color>
+    <color name="text_gray1">#777777</color>
+    <color name="text_gray2">#767676</color>
+    <color name="text_blue1">#1173CB</color>
+    <color name="text_blue2">#1173CA</color>
+    <color name="panel_black">#25272A</color>
+    <color name="btn_red">#D63F41</color>
+    <color name="btn_red_hover">#E8484B</color>
+    <color name="btn_blue">#0F73CB</color>
+    <color name="btn_blue_hover">#1E86E4</color>
+    <color name="btn_text">#FFFFFF</color>
+    <color name="btn_text_hover">#CCFFFFFF</color>
+    <!--蒙版-->
+    <color name="colorMask">#66000000</color>
+
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_icon_text_text_icon_text" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/frameLayout"></FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/black" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/tab_menu"
+        android:layout_gravity="bottom">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/main_guanzhuliebiao"
+            android:text="关注列表"
+            android:id="@+id/radioButton_guanzhuliebian"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_tv_color" />
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/main_huanzhezhongxin"
+            android:text="患者中心"
+            android:id="@+id/radioButton_huanzhezhongxin"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_tv_color" />
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/main_chuangsanjilu"
+            android:text="创伤记录"
+            android:id="@+id/radioButton_chuangshanjilu"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_tv_color" />
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/main_jieguotixing"
+            android:text="报告提醒"
+            android:id="@+id/radioButton_jieguotixing"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_tv_color" />
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+http://192.168.10.142:8080/treat/app/treat.html?mark=getCheckInfoByCodeTime&patientCode=123&from=2016-06-01&to=2016-08-01
+
+{"result":1,
+"patient":{
+	"acceptsStatus":0,"fixedTelephone":"18423456543","gmtCreated":1468032280000,"gmtModified":1470118828000,"id":1,"isDel":1,"linkPerson":"王","linkPhone":"0555-6132421","patientAge":"23","patientCardId":"340523456724562718","patientCode":"123","patientHight":"187","patientName":"小刚2","patientSex":"男","receptionCode":"243649","receptionPerson":"小智","seeDoctorDate":1467427464000,"seeDoctorRecords":"不咋地啊","transferDepartment":"","transferHospital":"天天","transferOutpatient":"","transferType":"住院"
+},
+"CheckArray":[
+	{"check2":{"checkName":"血常规","checkTime":1469692733000,"checkTime2":"2016-07-28","checkType":"血常规","gmtCreated":1468569581000,"gmtModified":1470106061000,"id":1,"isDel":1,"patientCode":"123","patientName":"小刚","picCode":"TID","readflag":0,"reportTime":1469771070000,"reportTime2":"2016-07-29"}},
+	{"check2":{"checkName":"尿检","checkTime":1468656017000,"checkTime2":"2016-07-16","checkType":"尿检","gmtCreated":1468828849000,"gmtModified":1470105272000,"id":2,"isDel":1,"patientCode":"123","patientName":"小刚","picCode":"TID","readflag":0,"reportTime":1469857475000,"reportTime2":"2016-07-30"}}
+	],
+"secondList":[
+	{"checkDetail":{"checkDetail":"血小板不足","checkFinalResult":"300ml","checkId":1,"checkReference":"260ml","checkResult":"255ml","gmtCreated":"2016-07-15 15:06:57.0","gmtModified":"2016-07-16 15:07:08.0","id":1,"isDel":1,"patientCode":"123"}},
+	{"checkDetail":{"checkDetail":"黄细胞过多","checkFinalResult":"500ml","checkId":1,"checkReference":"244ml","checkResult":"242ml","gmtCreated":"2016-07-31 01:40:11.0","gmtModified":"2016-07-31 01:40:13.0","id":4,"isDel":1,"patientCode":"123"}},
+	{"checkDetail":{"checkDetail":"白细胞过多","checkFinalResult":"500ml","checkId":2,"checkReference":"244ml","checkResult":"242ml","gmtCreated":"2016-07-17 15:08:35.0","gmtModified":"2016-07-19 15:08:46.0","id":2,"isDel":1,"patientCode":"123"}}
+]
+} 
+
+{
+	"result":1,
+	"patient":{"acceptsStatus":0,"fixedTelephone":"18423456543","gmtCreated":1468032280000,"gmtModified":1470187371000,"id":1,"isDel":1,"linkPerson":"王","linkPhone":"0555-6132421","patientAge":"23","patientCardId":"340523456724562718","patientCode":"123","patientHight":"187","patientName":"小刚2","patientSex":"男","receptionCode":"243649","receptionPerson":"小智","seeDoctorDate":1467427464000,"seeDoctorRecords":"不咋地啊","transferDepartment":"","transferFlag":1,"transferHospital":"都是","transferOutpatient":"","transferType":"转院"},
+	"list":[
+	{
+		"check":{
+			"checkName":"血常规","checkTime":1469692733000,"checkType":"血常规","gmtCreated":1468569581000,"gmtModified":1470106061000,"id":1,"isDel":1,"patientCode":"123","patientName":"小刚","picCode":"TID","readflag":0,"reportTime":1469771070000
+		},
+		"checkDetailList":[
+			{"checkDetail":"血小板不足","checkFinalResult":"300ml","checkId":1,"checkReference":"260ml","checkResult":"255ml","gmtCreated":"2016-07-15 15:06:57.0","gmtModified":"2016-07-16 15:07:08.0","id":1,"isDel":1,"patientCode":"123"},
+			{"checkDetail":"黄细胞过多","checkFinalResult":"500ml","checkId":1,"checkReference":"244ml","checkResult":"242ml","gmtCreated":"2016-07-31 01:40:11.0","gmtModified":"2016-07-31 01:40:13.0","id":4,"isDel":1,"patientCode":"123"}
+		],
+		"checkName":"血常规"
+	},
+	{
+		"check":{"checkName":"尿检","checkTime":1468656017000,"checkType":"尿检","gmtCreated":1468828849000,"gmtModified":1470105272000,"id":2,"isDel":1,"patientCode":"123","patientName":"小刚","picCode":"TID","readflag":0,"reportTime":1469857475000},
+		"checkDetailList":[{"checkDetail":"白细胞过多","checkFinalResult":"500ml","checkId":2,"checkReference":"244ml","checkResult":"242ml","gmtCreated":"2016-07-17 15:08:35.0","gmtModified":"2016-07-19 15:08:46.0","id":2,"isDel":1,"patientCode":"123"}
+		],
+		"checkName":"尿检"
+	}
+	]
+} 
+
+08-03 12:41:43.114: I/System.out(1122): 
+{"result":1,
+	"patient":{
+		"acceptsStatus":0,"fixedTelephone":"18423456543","gmtCreated":1468032280000,"gmtModified":1470191714000,"id":1,"isDel":1,"linkPerson":"王","linkPhone":"0555-6132421","patientAge":"23","patientCardId":"340523456724562718","patientCode":"123","patientHight":"187","patientName":"小刚2","patientSex":"男","receptionCode":"243649","receptionPerson":"小智","seeDoctorDate":1467427464000,"seeDoctorRecords":"不咋地啊","transferDepartment":"","transferFlag":1,"transferHospital":"","transferOutpatient":"","transferType":"病故"
+		},
+	"list":
+		[
+		{"check":{"checkName":"血常规","checkTime":1469692733000,"checkType":"血常规","gmtCreated":1468569581000,"gmtModified":1470106061000,"id":1,"isDel":1,"patientCode":"123","patientName":"小刚","picCode":"TID","readflag":0,"reportTime":1469771070000},
+		"checkDetailList":
+		[
+			{"checkDetail":"血小板不足","checkFinalResult":"300ml","checkId":1,"checkReference":"260ml","checkResult":"255ml","gmtCreated":"2016-07-15 15:06:57.0","gmtModified":"2016-07-16 15:07:08.0","id":1,"isDel":1,"patientCode":"123"},
+			{"checkDetail":"黄细胞过多","checkFinalResult":"500ml","checkId":1,"checkReference":"244ml","checkResult":"242ml","gmtCreated":"2016-07-31 01:40:11.0","gmtModified":"2016-07-31 01:40:13.0","id":4,"isDel":1,"patientCode":"123"}
+			],"checkName":"血常规"},
+		{"check":{"checkName":"尿检","checkTime":1468656017000,"checkType":"尿检","gmtCreated":1468828849000,"gmtModified":1470105272000,"id":2,"isDel":1,"patientCode":"123","patientName":"小刚","picCode":"TID","readflag":0,"reportTime":1469857475000},
+		"checkDetailList":[{"checkDetail":"白细胞过多","checkFinalResult":"500ml","checkId":2,"checkReference":"244ml","checkResult":"242ml","gmtCreated":"2016-07-17 15:08:35.0","gmtModified":"2016-07-19 15:08:46.0","id":2,"isDel":1,"patientCode":"123"}],"checkName":"尿检"},{"check":{"checkName":"血检","checkTime":1470045106000,"checkType":"血检","gmtCreated":1470045140000,"gmtModified":1470115816000,"id":8,"isDel":1,"patientCode":"123","patientName":"小刚","picCode":"TID","readflag":1,"reportTime":1471859559000},"checkDetailList":[{"checkDetail":"红细胞过多","checkFinalResult":"500ml","checkId":8,"checkReference":"244ml","checkResult":"242ml","gmtCreated":"2016-07-31 01:40:05.0","gmtModified":"2016-07-31 01:40:08.0","id":3,"isDel":1,"patientCode":"123"}],"checkName":"血检"},
+		{"check":{"checkName":"检验","checkTime":1469692733000,"gmtCreated":1470194046000,"gmtModified":1470194046000,"id":13,"isDel":1,"patientCode":"123","readflag":0,"reportTime":1469771070000},"checkDetailList":[{"checkDetail":"是","checkFinalResult":"需要降低","checkId":13,"checkReference":"56","checkResult":"55","gmtCreated":"2016-08-03 11:14:06.0","gmtModified":"2016-08-03 11:14:06.0","id":10,"isDel":1,"patientCode":"123"}],"checkName":"检验"}]}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout_datesearch"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView_startdate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_border_gray"
+            android:gravity="center"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView_enddate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_border_gray"
+            android:gravity="center"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/search"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linearLayout_datesearch"
+        layout="@layout/table_my_hscrollview_item" />
+
+    <ExpandableListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linearLayout_datesearch"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:groupIndicator="@null">
+    </ExpandableListView >
+</RelativeLayout>

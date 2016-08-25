@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/blue_title" >
+		<FrameLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+		    android:id="@+id/title_left"
+		    >
+        <Button
+            android:id="@+id/title_left_btn"
+            style="@style/btn_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:background="@drawable/icon_back_2"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+        <TextView 
+            android:id="@+id/title_left_sign"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:gravity="center"
+            />
+		</FrameLayout>
+		<FrameLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+		    android:id="@+id/title_right"
+		 >
+        <Button
+            android:id="@+id/title_right_btn"
+            style="@style/btn_title"
+            android:layout_width="wrap_content" 
+            android:background="@drawable/icon_share"
+            android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+            android:visibility="invisible"/>
+         <TextView 
+            android:id="@+id/title_right_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+		</FrameLayout>  
+        <TextView
+            android:id="@+id/title_center_text"
+            style="@style/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true" />
+
+        <ProgressBar
+            android:id="@+id/title_progress"
+            style="?android:attr/progressBarStyleSmallTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
+            android:layout_toLeftOf="@id/title_center_text" />
+
+         
+    </RelativeLayout>
+
+</LinearLayout>

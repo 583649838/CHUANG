@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_01" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="姓名："
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="none"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="就诊号："
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editText_jiuzhenhao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="15"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/black" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/tab_menu">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="基本\n信息"
+            android:id="@+id/radioButton_jibenxinxi"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_tv_color" />
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用药\n信息"
+            android:id="@+id/radioButton_yongyaoxinxi"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_tv_color" />
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="检验\n检查"
+            android:id="@+id/radioButton_jinayanjiancha"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_tv_color" />
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图像\n影片"
+            android:id="@+id/radioButton_tuxiangyingpian"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_tv_color" />
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:visibility="gone" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="救治\n记录"
+            android:id="@+id/radioButton_jiuzhijilu"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/selector_tv_color"
+            android:visibility="gone" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/black" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameLayout"></FrameLayout>
+</LinearLayout>

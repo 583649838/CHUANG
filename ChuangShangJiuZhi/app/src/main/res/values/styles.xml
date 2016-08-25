@@ -1,0 +1,119 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AnimationAlphaActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="CustomTheme_Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.4</item>
+        <!-- 灰度 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否悬浮在activity上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 背景变暗 -->
+    </style>
+
+    <!-- 重新加载 按钮 -->
+    <style name="btn_tobuy">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/circle_yellow</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">55dp</item>
+        <item name="android:paddingRight">55dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="PopupAnimation" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+    <!-- tab btn -->
+    <style name="btn_title">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#fefefe</item>
+    </style>
+
+    <style name="header_title">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#fefefe</item>
+    </style>
+
+     
+
+    
+    <!-- 自定义 dialog -->
+    <style name="userDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">false</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+    <item name="android:windowFrame">@null</item><!--边框 -->
+        <item name="android:windowFullscreen">true</item> <!--全屏-->
+        <item name="android:windowBackground">@color/transparent_half</item><!--背景半透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+    
+     <!-- 自定义 dialog -->
+    <style name="progressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">false</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+    <item name="android:windowFrame">@null</item><!--边框 -->
+        <item name="android:windowFullscreen">true</item> <!--全屏-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景半透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+
+    <style name="style_title_big">  
+    	<item name="android:textSize">20sp</item>   
+    	<item name="android:textColor">@color/black</item>
+	</style>  
+    <style name="style_title_small">  
+    	<item name="android:textSize">14sp</item> 
+    	<item name="android:textColor">@color/gray_444</item>
+	</style>  
+	
+    
+    <style name="progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置未浮动窗口 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置无边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowBackground">@color/black</item>
+        <!-- 设置完全透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 设置屏幕变暗 -->
+    </style>
+    
+    
+      <!-- 设置弹出窗口的属性，frame叠加，isfloat是否浮动，tarnslucent是否半透明，dim是背景是否变暗 -->
+    <style name="Theme_audioDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    <style name="maskDialog" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/colorMask</item>
+    </style>
+</resources>
